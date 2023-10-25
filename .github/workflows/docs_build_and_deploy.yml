@@ -6,12 +6,6 @@ name: Build Sphinx docs and deploy to GitHub Pages
 # pushed and actually moves the generated html to the gh-pages branch
 # (which triggers a GitHub pages deployment).
 on:
-  push:
-    branches:
-      - main
-    tags:
-      - '*'
-  pull_request:
   workflow_dispatch:
 
 jobs:
